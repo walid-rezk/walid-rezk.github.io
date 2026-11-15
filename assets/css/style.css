@@ -61,7 +61,7 @@ nav {
   object-fit: contain;
   border-radius: 50%;
   border: 2px solid var(--clr-accent);
-  background: #3b82f6;
+  background: #ffffff;
 }
 .nav-logo span {
   font-weight: 700;
@@ -270,7 +270,7 @@ nav {
   height: 220px;
   border-radius: 50%;
   object-fit: contain;
-  background: #3b82f6;
+  background: var(--clr-surface2);
   border: 3px solid var(--clr-accent);
   box-shadow: 0 0 40px rgba(59,130,246,.3);
 }
