@@ -771,7 +771,7 @@ section {
 
 .contact-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
   margin-bottom: 3rem;
 }
@@ -931,6 +931,10 @@ footer a {
     grid-template-columns: 1fr;
   }
 
+  .contact-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
 }
 
 @media (max-width: 640px) {
@@ -972,6 +976,10 @@ footer a {
   }
 
   .about-highlights {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-cards {
     grid-template-columns: 1fr;
   }
 
